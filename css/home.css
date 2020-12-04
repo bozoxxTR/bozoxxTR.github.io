@@ -1,0 +1,142 @@
+@font-face {
+	font-family: persona; src: url('font/p5hattyturk.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+
+ul.menu {
+	background: rgb(3,3,26);
+	background: -moz-linear-gradient(top, rgba(3,3,26,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(3,3,26,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(3,3,26,1) 0%, rgba(255,255,255,0) 100%);
+	opacity: 1;
+	height: 55px;
+}
+ul.menu >li {
+	float: right;
+	position: relative;
+}
+ul.menu >li2 {
+	float: left;
+	position: relative;
+}
+ul.menu >li2 a {
+	display: block;
+	font-size: 40px;
+	font-family: persona;
+	opacity: 1;
+	color: #fff;
+	padding: 0 15px;
+	line-height: 55px;
+	border-right: 5px solid rgba(0,0,0,0.1);
+}
+ul.menu >li a {
+	display: block;
+	font-size: 25px;
+	font-family: persona;
+	opacity: 1;
+	color: #fff;
+	padding: 0 15px;
+	line-height: 55px;
+	border-right: 5px solid rgba(0,0,0,0.1);
+}
+ul.menu ul {
+	background: rgb(3,3,26);
+	background: -moz-linear-gradient(top, rgba(3,3,26,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(3,3,26,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(3,3,26,0.1) 0%, rgba(3,3,26,0.1) 100%);
+	width: 200px;
+	position: absolute;
+	top:30px;
+	left:0;
+	opacity: 0;
+	transition: 250ms all;
+	visibility: hidden;
+	border-right: 0px solid black;
+}
+ul.menu ul li a {
+	display: block;
+	padding: 7px 12px;
+	color: #fff;
+	font-size: 20px;
+}
+ul.menu >li:hover ul {
+opacity: 1;
+visibility: visible;
+top: 50px;
+}
+
+ }
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+p {
+  color:#69613C;
+  font-family:;
+	font-size:40px;
+  text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:link {
+    color:#69613C;
+}
+a:visited {
+	color:#69613C;
+}
+div{
+    width:100px;
+
+    height:100px;
+
+    background-color: #00ff75;
+
+    position: absolute;
+
+    right:0;
+
+    bottom:0;
+}
+body {
+	background: #F7960A;
+	background: -moz-linear-gradient(left, #F7960A 0%, #BA4F1E 100%);
+	background: -webkit-linear-gradient(left, #F7960A 0%, #BA4F1E 100%);
+	background: linear-gradient(to right, #F7960A 0%, #BA4F1E 100%);
+}
+li {
+    margin-bottom: 10px;
+}
+
+.hover-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.hover-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.hover-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}

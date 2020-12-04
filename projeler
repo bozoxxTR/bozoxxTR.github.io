@@ -1,0 +1,30 @@
+<html>
+ <link rel="icon" href="">
+  <head>
+    <title>Projelerimiz</title>
+    <link rel ="stylesheet" href ="css/home.css"/>
+    <link rel ="stylesheet" href ="css/slide.css"/>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <ul class="menu">
+      <li2>
+        <a class="hover-link" href="index.html">Bruh moment</a>
+      </li2>
+      <li>
+        <a class="hover-link" href="iletişim">İletişim</a>
+      </li>
+    <li>
+      <a class="hover-link" href="hakkımızda">Hakkımızda</a>
+    </li>
+    <li>
+      <a class="hover-link" href="projeler">Projeler▾</a>
+      <ul>
+        <li>
+          <a class="hover-link" href="oyunlar/stanley">The Stanley Parable</a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+  </body>
+</html>
